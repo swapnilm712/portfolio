@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Painting Shop Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script src="./landingPage.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#shop">Shop</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1>Welcome to Swapnil Arts</h1>
+        <p>
+          "Swapnil Arts: Transforming spaces with vibrant wall paintings and creative expressions."
+        </p>
+        <a href="#shop" class="btn">Contact Now</a>
+      </section>
+      <section class="gallery" id="gallery">
+        <h2>Featured Paintings</h2>
+        <div class="painting-grid">
+          <div class="painting">
+            <img src="./images/painting1.jpg" alt="Painting 1" />
+            <h3>Painting 1</h3>
+            
+          </div>
+          <div class="painting">
+            <img src="./images/pic2.jpg" alt="Painting 2" />
+            <h3>Painting 2</h3>
+            
+          </div>
+          <div class="painting">
+            <img src="./images/painting3.jpg" alt="Painting 3" />
+            <h3>Painting 3</h3>
+            
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>
+          "Swapnil Arts: Transforming walls into masterpieces with passion and precision. Elevate your space with our expert painting services. Experience the art of perfection with Swapnil Arts."
+        </p>
+      </section>
+      <section class="shop" id="shop">
+        <h2>Shop</h2>
+        <div class="product-grid">
+          <div class="product">
+            <img src="./images/painting4.jpg" alt="Painting 4" />
+            <h3>Painting 4</h3>
+           
+          </div>
+          <div class="product">
+            <img src="./images/painting5.jpg" alt="Painting 5" />
+            <h3>Painting 5</h3>
+            
+          </div>
+          <div class="product">
+            <img src="./images/painting6.jpg" alt="Painting 6" />
+            <h3>Painting 6</h3>
+           
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST" id="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </form>
+        <button type="submit" class="btn" id="submit-button">Send Message</button>
+      </section>
+      <h3>contsct</h3>
+      <div class="social-links">
+                    
+        <a href="https://www.facebook.com/profile.php?id=100020500573307" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/swapnilmane_712/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://github.com/swapnilm712" class="github"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/swapnil-mane-7845ba28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Painting Shop. All rights reserved.</p>
+    </footer>
+    
+  </body>
+</html>
